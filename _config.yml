@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Dherik Barison"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Conheça um pouco sobre mim e minha carreira profissional."
+  bio    : "Follow my work and activity."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
