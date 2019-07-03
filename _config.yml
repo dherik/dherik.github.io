@@ -71,9 +71,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dherik"
-    - label: "Stack Overflow"
+    - label: "Stack Exchange"
       icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/2387977/dherik"
+      url: "https://stackexchange.com/users/2774008/dherik"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/dherik/"
 
 footer:
   links:
