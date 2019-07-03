@@ -1,5 +1,5 @@
 ---
-title: "Github Pages and Jekyll"
+title: "Powered by Github Pages and Jekyll"
 categories:
   - Blog
 tags:
@@ -9,7 +9,7 @@ tags:
 
 How I create this page?
 
-Has been a while since I came with the idea to buy a domain and create a profissional page (and blog!) to expose some of my work and share my experience and thoughts.
+Has been a while since I came with the idea to buy a domain and create a profissional page (and blog!) to expose some of my work and share my experiences and thoughts.
 
 My biggest concern was: where I could host this page?
 
@@ -23,6 +23,6 @@ After some research about what the best options of static content manager we hav
 
 Finally, I found the answer of my prays on [Github Pages](https://pages.github.com/). Github have a [native support for the Jekyll](https://jekyllrb.com/docs/github-pages/), one the most famous static content managers available. And not only that, you can choose a Jekyll template among a lot of template repositories that are ready to use; you just need to fork it and you have a functional blog. 
 
-My choice was the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/). I fork their repository, rename to [dherik.github.io](https://dherik.github.io) and done!
+My choice was the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/). I forkes their repository, rename to [dherik.github.io](https://dherik.github.io) and done!
 
 I really need to dig and understand better how powerful this content manager is to apply some customizations on my blog. But for now the Jekyll is more than enough for my needs. 
