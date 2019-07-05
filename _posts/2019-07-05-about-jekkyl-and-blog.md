@@ -1,6 +1,6 @@
 ---
 title: "Powered by Github Pages and Jekyll"
-published: false
+published: true
 categories:
   - Blog
 tags:
