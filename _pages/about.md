@@ -3,6 +3,8 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+My name is Dherik Barison. A Tech Lead and Java Software Developer with 10+ years experience, willing to share some of my knowledge to the world :).
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+# History
+
+I grew up in Cambé, Brazil. I went to State University of Londrina (UEL) from 2006-2010 where I got a BS in Computer Science. After graduating I moved to Campinas and got a master graduation on State University of Campinas (Unicamp). After that I left my academic carreer and worked on different companies: Dextra (4 years), MATERA Systems (1 year) and Confidence Exchange (2 years). I moved to Porto Alegre on 2017 to work on CWI Software.
