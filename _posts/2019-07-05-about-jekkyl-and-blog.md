@@ -7,7 +7,7 @@ tags:
   - jekyll
   - github
 header:
-  image: /assets/images/clement-h-95YRwf6CNw8-unsplash.jpg
+  image: /assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
