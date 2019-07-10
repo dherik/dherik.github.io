@@ -6,6 +6,9 @@ categories:
 tags:
   - jekyll
   - github
+header:
+  image: /assets/images/unsplash-image-1.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
 How I created this page?
