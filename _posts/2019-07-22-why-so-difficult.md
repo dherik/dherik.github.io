@@ -8,7 +8,7 @@ tags:
   - software
   - quality
 header:
-  image: /assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg
+  image: /assets/images/luca-bravo-XJXWbfSo2f0-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
