@@ -1,5 +1,5 @@
 ---
-title: "Why is so difficult to convince managers to invest on software improvement?"
+title: "Why is so difficult to convince some managers to invest on software improvement?"
 published: true
 categories:
   - Blog
