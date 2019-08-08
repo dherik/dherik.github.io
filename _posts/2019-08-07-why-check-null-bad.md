@@ -51,7 +51,7 @@ In this case, make sure to isolate your code from them. As soon as your code has
 
 # Common questions
 
-There is an [article on DZone](https://dzone.com/articles/why-i-never-null-check-parameters) about this subject. Seeing the comments, many developers don't understand the main idea behind the null checks. So I create some Q&A to address the doubts about this subject.
+There is an [article on DZone](https://dzone.com/articles/why-i-never-null-check-parameters) about this subject. Seeing the comments, many developers don't understand the idea behind the null checks. So I create some Q&A to address the main doubts.
 
 > "But some developer could just pass null for the method anytime!"
 
