@@ -118,3 +118,8 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "dherik"
+
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-145400246-1"
