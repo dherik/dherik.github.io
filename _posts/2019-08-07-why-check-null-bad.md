@@ -5,7 +5,7 @@ categories:
   - Blog
 tags:
   - java
-  - null
+  - nulls
   - optional
 header:
   image: /assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg
