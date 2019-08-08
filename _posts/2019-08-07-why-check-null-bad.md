@@ -47,7 +47,7 @@ But, you are not always in control of all null possibilities. Some libraries, pe
 
 So, you need to be **aware of these null sources**.
 
-In this case, make sure to isolate your code from them. As soon as your code has contact with the null, make sure to change your code to not propagate the null.
+In this case, make sure to isolate your code from them. As soon as your code has contact with the null, make sure to change it to not propagate the null.
 
 # Common questions
 
@@ -63,7 +63,7 @@ If you are not working with nulls on your parameters, you shouldn't bother with 
 
 For example, when you are using some dependency injection framework (like [Spring](https://spring.io), [Ninject](http://www.ninject.org), [Guice](https://github.com/google/guice), etc) do you verify if the injected class is null? No, because the class will always exist. If your project is using non-null parameters as default behavior, why you should check nulls on parameters?
 
-If some developer insists that this null could happen and needs to be checked, he needs to answer these two questions:
+If any developer insists that this null could happen and needs to be checked, he needs to answer these two questions:
 
 1. How this null could appear on that point of the code?
 1. How you could handle the null before the method call?
