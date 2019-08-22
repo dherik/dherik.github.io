@@ -24,7 +24,7 @@ The big first step is to lose the notion to have many exceptions, representing a
 
 So, you just need a single exception extending `RuntimeException`. You can choose the name you prefer. Here I will call  `SystemException`.
 
-To represent the different "exceptions", you can create different error codes. This is very easy using enumerators, like:
+To represent the different "exceptions", you can create error codes. This is easily done using enumerators, like:
 
 ```java
 public enum ErrorCode implements IErrorCode {
