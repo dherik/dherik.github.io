@@ -43,7 +43,7 @@ Every time you need to throw the exception, just pass the right error code:
 throw new SystemException(ErrorCode.CREDIT_CARD_EXPIRED);
 ```
 
-As each error have a unique code, you are prepared to map each error on the messages.properties file:
+As each error has a unique code, you are prepared to map each error on the messages.properties file:
 
 ```properties
 101 = The name is invalid
