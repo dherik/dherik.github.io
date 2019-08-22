@@ -16,7 +16,7 @@ The Java checked exceptions are some kind of unique feature that most of the pro
 
 The checked exceptions are [considered a mistake](https://testing.googleblog.com/2009/09/checked-exceptions-i-love-you-but-you.html) and this conclusion [is not new](http://radio-weblogs.com/0122027/stories/2003/04/01/JavasCheckedExceptionsWereAMistake.html). This helps to explain why any modern language, like [Scala](https://softwareengineering.stackexchange.com/questions/177806/decision-for-unchecked-exceptions-in-scala) or [Kotlin](https://kotlinlang.org/docs/reference/exceptions.html#checked-exceptions), not copied this idea.
 
-There are a lot of sources on the Internet explaining how checked exceptions are bad for your application and the advantages to not use it. Just follow the links that I share before if you prefer. But my mission here is to show how you could organize your code to work only with unchecked exceptions.
+There are a lot of sources on the Internet explaining how checked exceptions are bad and the advantages to not use it. Just follow the links that I share before if you prefer. But my mission here is to show how you could organize your code to work only with unchecked exceptions.
 
 # Show me the code!
 
