@@ -78,4 +78,4 @@ try {
 }
 ```
 
-The details about the code you can find on [my Github repository](https://github.com/dherik/java-exception-handling/tree/master/src/test/java/io/github/dherik/exception). The original idea of this implementation came from [this blog](https://northconcepts.com/blog/2013/01/18/6-tips-to-improve-your-exception-handling/).
+The details about the code you can find on [my Github repository](https://github.com/dherik/java-exception-handling/tree/master/src/test/java/io/github/dherik/exception). Some parts of my implementation are slightly different from what I showed on the text, but it's just details that you can adjust. The original idea of this implementation came from [this blog](https://northconcepts.com/blog/2013/01/18/6-tips-to-improve-your-exception-handling/).
