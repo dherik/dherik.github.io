@@ -20,7 +20,7 @@ There are a lot of sources on the Internet explaining how checked exceptions are
 
 # Show me the code!
 
-The big first step is to lose the notion to have many exceptions, representing a lot of different situations, like FileNotFoundException, OrderMissingException, InvalidEmailException, etc. Soon or later, you will have a bunch of very similar classes with the same purpose, not bringing with them any new information. And on this Rest API times, they will also need to be translated as a nice message for the final user, and these exceptions will not help you.
+The big first step is to lose the notion to have many exceptions, representing a lot of different situations, like `FileNotFoundException`, `OrderMissingException`, `InvalidEmailException`, etc. Soon or later, you will have a bunch of very similar classes with the same purpose, not bringing with them any new information. And on this Rest API times, they will also need to be translated as a nice message for the final user some time, and these exceptions will not help you.
 
 So, you just need a single exception extending `RuntimeException`. You can choose the name you prefer. Here I will call  `SystemException`.
 
