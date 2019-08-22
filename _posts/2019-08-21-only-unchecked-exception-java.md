@@ -12,15 +12,15 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-The Java checked exceptions are some kind of unique feature that most of the programming languages do not have. Is this could be a signal to not use it? The short answer is yes. And I will show how not use it.
+The Java checked exceptions are some kind of unique feature that most of the programming languages do not have. Is this could be a signal to not use it? The short answer is **yes**. And I will show how not use it.
 
-The checked exceptions are [considered a mistake](https://testing.googleblog.com/2009/09/checked-exceptions-i-love-you-but-you.html) and this conclusion [is not new](https://kotlinlang.org/docs/reference/exceptions.html#checked-exceptions). This helps to explain why any modern language, like [Scala](https://softwareengineering.stackexchange.com/questions/177806/decision-for-unchecked-exceptions-in-scala) or Kotlin, copied this idea.
+The checked exceptions are [considered a mistake](https://testing.googleblog.com/2009/09/checked-exceptions-i-love-you-but-you.html) and this conclusion [is not new](http://radio-weblogs.com/0122027/stories/2003/04/01/JavasCheckedExceptionsWereAMistake.html). This helps to explain why any modern language, like [Scala](https://softwareengineering.stackexchange.com/questions/177806/decision-for-unchecked-exceptions-in-scala) or [Kotlin](https://kotlinlang.org/docs/reference/exceptions.html#checked-exceptions), not copied this idea.
 
 There are a lot of sources on the Internet explaining how checked exceptions are bad for your application and the advantages to not use it. Just follow the links that I share before if you prefer. But my mission here is to show how you could organize your code to work only with unchecked exceptions.
 
 # Show me the code!
 
-The big first step is to lose the idea to have many exceptions, representing a lot of different situations, like FileNotFoundException, OrderMissingException, InvalidEmailException, etc. Soon or later, you will have a bunch of very similar classes with the same purpose, not bringing with them any new information. And on this Rest API times, they will also need to be translated as a nice message for the final user, and these exceptions will not help you.
+The big first step is to lose the notion to have many exceptions, representing a lot of different situations, like FileNotFoundException, OrderMissingException, InvalidEmailException, etc. Soon or later, you will have a bunch of very similar classes with the same purpose, not bringing with them any new information. And on this Rest API times, they will also need to be translated as a nice message for the final user, and these exceptions will not help you.
 
 So, you just need a single exception extending `RuntimeException`. You can choose the name you prefer. Here I will call  `SystemException`.
 
