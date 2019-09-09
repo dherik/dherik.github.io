@@ -62,7 +62,7 @@ Examples of these and other questions that were on the test you can find on [my 
 
 This test worked very well.
 
-But many candidates that seem very good at the talking interview was not able to resolve the two tests above. Worse than this, a few junior developers have been able to resolve more than 5 problems faster and better than most of the senior developers that resolve the first 2 questions. By my experience, I'm not shocked.
+But many candidates that seem very good at the talking interview was not able to resolve the two tests above. Worse than this, a few junior developers have been able to resolve more than 5 problems faster and better than most of the senior developers that resolve the first 2 questions. By my experience, I'm not surprised.
 
 The results were more than satisfactory. However, we found that the talking interviews were not working well as the first filter, because most of the candidates were able to be approved in this step but failed the programming test.
 
