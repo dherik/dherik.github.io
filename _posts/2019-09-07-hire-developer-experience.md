@@ -15,9 +15,9 @@ header:
 
 Junior, Middle, Senior, Specialist... so many titles. But how much these titles say about his coding skills when you are trying to hire one?
 
-I already made dozens of interviews for Java developer positions. Take me awhile and some studies to understand how to select good candidates with the tools that I had. To my surprise, it's really simple.
+I already made dozens of interviews for Java developer positions. Took me awhile and some studies to understand how to select good candidates with the tools that I had. To my surprise, it's really simple.
 
-## The first mistake
+## The first experience
 
 The first interviews that I made were just talking to the candidate: some questions about what coding books he read, some technical questions to explore his skills and experience, etc.
 
@@ -25,7 +25,7 @@ For some time this was considered a good approach. But the approved candidates *
 
 As you know, it was a mistake in our process: as you can't hire a magician without seeing him make some magic, you can't hire a developer without seeing some code.
 
-## The second mistake
+## The second experience
 
 Another idea was to create a [Coding Dojo](http://codingdojo.org/WhatIsCodingDojo/) with the candidates. We run some interviews using this technic and the results were good, I can't lie.
 
@@ -37,13 +37,13 @@ But we realized at least three major problems:
 
 Even with the good results, the cost-benefit was not so great. On many occasions, we spend time in the Coding Dojo to no hire any of the candidates.
 
-## The third mistake
+## The third experience
 
 The company started to use a complex test after the talking interview. I not participated in this decision, but basically, the test was: connect to a database, create some Hibernate entities and solve some problems about save a person and his information.
 
 The cons: this test was hard to set up every time (because of the database), required too much specific knowledge from the candidate (I don't care if he remembers or not how to connect to a database) and consumes a lot of time of the candidate without showing relevant programming skills.
 
-## The fourth (and last) mistake
+## The fourth experience
 
 One of the first articles that open my mind was the [Guerrila guide do intervieweing](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/). Joel changes my focus on the interview and I start to looking for developers **smart**  and that **gets things done**.
 
@@ -66,7 +66,7 @@ But many candidates that seem very good at the talking interview was not able to
 
 The results were more than satisfactory. However, we found that the talking interviews were not working well as the first filter, because most of the candidates were able to be approved in this step but failed the programming test.
 
-## The success
+## The last (and best) experience
 
 We just inverted the order of the process. First, the programming test. Second, talking.
 
@@ -80,7 +80,7 @@ This experience showed to me that hire a developer without seeing his code is no
 
 Of course, I'm not saying that everyone needs to follow this process to hire a developer. The companies had different problems, tools, demands, and prerequisites. For example, some companies prefer to pass a bigger exercise for the candidate to solve in the comfort of your home and, to be honest, probably it's a better strategy. I already participated in two interview processes using this method and the experience for me, as a candidate, was positive.
 
-Of course, even this simple process you can accidentally filter a good candidate, but when in doubt it's better to not hire. As Joel said:
+Of course, even this simple interview process can accidentally filter a good candidate. But when in doubt about hire or not hire, it’s better not. As Joel said:
 
 > ... it is much, much better to reject a good candidate than to accept a bad candidate
 
