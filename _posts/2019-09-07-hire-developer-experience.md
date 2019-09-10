@@ -80,7 +80,7 @@ This experience showed to me that hire a developer without seeing his code is no
 
 Of course, I'm not saying that everyone needs to follow this process to hire a developer. The companies had different problems, tools, demands, and prerequisites. For example, some companies prefer to pass a bigger exercise for the candidate to solve in the comfort of your home and, to be honest, probably it's a better strategy. I already participated in two interview processes using this method and the experience for me, as a candidate, was positive.
 
-Of course, even this simple interview process can accidentally filter a good candidate. But when in doubt about hire or not hire, it’s better not. As Joel said:
+Of course, even this simple interview process can accidentally filter a good candidate. But when in doubt about hire or not hire, it’s better not. As [Joel said](https://blog.codinghorror.com/why-cant-programmers-program/):
 
 > ... it is much, much better to reject a good candidate than to accept a bad candidate
 
