@@ -45,7 +45,7 @@ The cons: this test was hard to set up every time (because of the database), req
 
 ## The fourth experience
 
-One of the first articles that open my mind was the [Guerrila guide do intervieweing](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/). Joel changes my focus on the interview and I start to looking for developers **smart**  and that **gets things done**.
+One of the first articles that open my mind was the [Guerrila guide to interviewing](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/). Joel changes my focus on the interview and I start to looking for developers **smart**  and that **gets things done**.
 
 But I needed to adapt some of his processes.
 
