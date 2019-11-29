@@ -90,6 +90,6 @@ That can produce a log like:
 
 ## Log it's not only for errors
 
-Many developers think that log it's only for errors. I could say that log errors it's important as logging what your software is doing. Also, the error log will certainly be less used by you than the `INFO` or `WARN` logs on the usual software.
+Some developers think that log it's only for errors. I could say that log errors it's important as logging what your software is doing. A software with weak log is unable to describe what and how your software is processing some useful and pontual informations. These informations are gold when you are in a production environment and needs to know what's hapenning on the core of your code.
 
 I think that the previous tips will guide you on software where the logs will be very helpful.
