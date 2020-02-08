@@ -66,11 +66,11 @@ I mean, if you see the software logging information using this format:
 
 Don't try to use a different format in another place of the code:
 
-    LOGGER.info("The person [{}] was created", person.getName());
+    log.info("The person [{}] was created", person.getName());
 
 Or:
 
-    LOGGER.info("The person ["+ , person.getName() +"] was created");
+    log.info("The person ["+ , person.getName() +"] was created");
 
 This is not only good for the code but also for those who are reading the log.
 
