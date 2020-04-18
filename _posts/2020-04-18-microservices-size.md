@@ -46,4 +46,4 @@ These developers can do that because they probably know a lot about the business
 
 Sometimes, they already have some legacy system running to be based on and are migrating to a microservices system, having the advantage to already see what makes more sense to be split on more services or not.
 
-So, looking these examples, the developers seem able to replicate that. But to create a good microservices system you also need to study **the way** it was done and not just the final result.
+So, looking these examples, the developers seem able to replicate that, but it's not simple. To create a good microservices system you also need to study **the way** it was done and not just the final result.
