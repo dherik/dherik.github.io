@@ -38,12 +38,14 @@ When starting a project about a business core that you know almost nothing, you 
 
 But you can ask:
 
-> I already see/read/heard about systems with hundreds of services. How they can do that without becoming a nightmare?
+> I already see/read/heard about systems with hundreds of microservices. How they can do that without becoming a nightmare?
 
-On yeah, you can find many examples of teams creating really "tiny" services. And now I'm talking about size :).
+On yeah, you can find many examples of teams creating and managing really "tiny" services. And now I'm talking also about size :).
 
 These developers can do that because they probably know a lot about the business. Probably they have many years working on the same system and are already able to fully understand the main business processes.
 
-Sometimes, they already have some legacy system running to be based on and are migrating to a microservices system, having the advantage to already see what makes more sense to be split on more services or not.
+Sometimes, they already have some legacy system running to be based on and are migrating to a microservices system, having the advantage to already see what makes more sense to be split on more services or not. 
 
-So, looking these examples, the developers seem able to replicate that, but it's not simple. To create a good microservices system you also need to study **the way** it was done and not just the final result.
+Another possibility is the business problem that they are dealing with, that helps to create this very distributed architecture.
+
+So, looking these examples, some developers seem able to replicate that, but it's not simple. To create a good microservices system you also need to study **the way** it was done and not just the final result.
