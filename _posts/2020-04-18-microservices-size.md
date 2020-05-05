@@ -18,11 +18,11 @@ Recently, Martin Fowler [tweet](https://twitter.com/martinfowler/status/12476154
 
 > In 2014 @boicy and I described the emerging microservices architectural style. We identified 9 common characteristics. Size wasn't on the list.
 
-Even some people being mad because the "micro" name can be confused and somehow related to size, the size was never a thing if you really understand the meaning of the concept of microservices.  I already heard people judging the microservice just by its size and ignoring if the microservice is attending a specific and isolated business context.
+Even some people being mad because the "micro" name can be confused and somehow related to size, the size was never a thing if you understand the meaning of the concept of microservices.  I already heard people judging the microservice just by its size and ignoring if the microservice is attending a specific and isolated business context.
 
 The Microservices concept is about to understand the business and mold them with services with well-defined responsibilities.
 
-And then we start to have problems. Some developers think that they already know the business enough to start a project already creating a lot of services. This is very common when a company is starting a new project and the developers don't know anything about the business core. All their focus is on creating a lot of microservices because, in that way, they will feel that are "microservicing" the system.
+And then we start to have problems. Some developers think that they already know the business enough, starting a project creating a lot of services. This is very common when a company is starting a new project and the developers don't know anything about the business core. All their focus is on creating a lot of microservices because, in that way, they will feel that are "microservicing" the system.
 
 This will, soon or later, start the following consequences:
 
@@ -44,7 +44,7 @@ On yeah, you can find many examples of teams creating and managing really "tiny"
 
 These developers can do that because they probably know a lot about the business. Probably they have many years working on the same system and are already able to fully understand the main business processes.
 
-Sometimes, they already have some legacy system running to be based on and are migrating to a microservices system, having the advantage to already see what makes more sense to be split on more services or not. 
+Sometimes, they already have some legacy system running to be based on and are migrating to a microservices system, having the advantage to see what makes more sense to be splited on two or more services. 
 
 Another possibility is the business problem that they are dealing with, which helps to create this very distributed architecture.
 
