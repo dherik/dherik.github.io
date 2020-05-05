@@ -26,21 +26,22 @@ And then we start to have problems. Some developers think that they already know
 
 This will, soon or later, start the following consequences:
 
-- The microservice will depend heavily on another. It can't be reused to process information by another microservice. It behaviors as just a single service broken on two or more.
-- Sync (RPC) calls among them will be very common
-- Eventual consistency will be considered a problem and not an advantage
-- A lot of data replicated among the microservice databases
+- The microservice will depend heavily on another. It can't be reused to process information by another microservice. It behaviors as just a single service broken on two or more, also known as "Distributed Monolith".
+- The deployment of a microservice requires a deploy of another microservice too.
+- [Remote Procedure Calls](https://www.rabbitmq.com/tutorials/tutorial-six-python.html) will be very common.
+- Eventual consistency will be considered a problem and not an advantage.
+- A lot of data replicated among the microservice databases.
 - The necessity to merge two or more microservices in the future.
-- Throw microservice code away at the beginning of the project because made wrong assumptions
-- You can't rely on your system without a big (and complex) end-to-end test suite running daily.
+- Throw away microservice code at the beginning of the project, because wrong assumptions were made at the beginning.
+- The team can't rely on the system without a big (and complex) end-to-end test suite running daily.
 
-When starting a project about a business core that you know almost nothing, you need to assume a **humble** position on your code too.
+So, when starting a project about a business core that you know almost nothing, you need to assume a **humble** position on your code too.
 
 But you can ask:
 
 > I already see/read/heard about systems with hundreds of microservices. How they can do that without becoming a nightmare?
 
-On yeah, you can find many examples of teams creating and managing really "tiny" services. And now I'm talking also about size :).
+Yes, you can find many examples of teams creating and managing really "tiny" services. And now I'm talking also about the size :).
 
 These developers can do that because they probably know a lot about the business. Probably they have many years working on the same system and are already able to fully understand the main business processes.
 
@@ -48,4 +49,4 @@ Sometimes, they already have some legacy system running to be based on and are m
 
 Another possibility is the business problem that they are dealing with, which helps to create this very distributed architecture.
 
-So, looking these examples, some developers seem able to replicate that, but it's not simple. To create a good microservices system you also need to study **the way** it was done and not just the final result.
+So, looking these microservices architecture examples on the Internet, some developers seem able to replicate that, but it's not simple. To create a good microservices system you also need to study **the way** it was done and not just the final result.
