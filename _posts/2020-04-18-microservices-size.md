@@ -35,7 +35,7 @@ This will, soon or later, start the following consequences:
 - Throw away microservice code, because wrong assumptions were made at the beginning of the project.
 - The team can't rely on the system without a big (and complex) end-to-end test suite running daily.
 
-So, when starting a project about a business core that you know almost nothing, you need to assume a **humble** position on your code too.
+So, when starting a project about a business that the team knows almost nothing, the team needs to assume a **humble** and **defensive** position on their code too.
 
 But you can ask:
 
