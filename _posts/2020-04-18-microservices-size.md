@@ -32,7 +32,7 @@ This will, soon or later, start the following consequences:
 - Eventual consistency will be considered a problem and not an advantage.
 - A lot of data replicated among the microservice databases.
 - The necessity to merge two or more microservices in the future.
-- Throw away microservice code at the beginning of the project, because wrong assumptions were made at the beginning.
+- Throw away microservice code, because wrong assumptions were made at the beginning of the project.
 - The team can't rely on the system without a big (and complex) end-to-end test suite running daily.
 
 So, when starting a project about a business core that you know almost nothing, you need to assume a **humble** position on your code too.
