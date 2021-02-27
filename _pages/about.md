@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-My name is Dherik Barison. A Tech Lead and Java Software Developer with 10+ years experience, willing to share some of my knowledge to the world :).
+My name is Dherik Barison. An Engineering Manager and Java Software Developer with 10+ years experience, willing to share some of my knowledge to the world :).
 
 # History
 
