@@ -123,6 +123,7 @@ comments:
     shortname: "dherik"
 
 analytics:
-  provider: "google"
+  provider: "google-gtag"
   google:
-    tracking_id: "UA-145400246-1"
+    tracking_id: "G-VPPVR23YS6"
+    measurement_id: "G-VPPVR23YS6"
