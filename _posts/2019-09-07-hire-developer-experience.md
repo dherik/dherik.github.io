@@ -13,7 +13,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-Junior, Middle, Senior, Specialist... so many titles. But how much these titles say about his coding skills when you are trying to hire one?
+Junior, Middle, Senior, Specialist... so many titles. But how much to these titles say about their coding skills when you are trying to hire someone?
 
 I already made dozens of interviews for Java developer positions. Took me awhile and some studies to understand how to select good candidates with the tools that I had. To my surprise, it's really simple.
 
