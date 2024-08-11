@@ -15,7 +15,7 @@ header:
 
 Junior, Middle, Senior, Specialist... so many titles. But how much do these titles say about their coding skills when you are trying to hire someone?
 
-I already made dozens of interviews for Java developer positions. Took me awhile and some studies to understand how to select good candidates with the tools that I had. To my surprise, it's really simple.
+I already made dozens of interviews for developer positions. Took me awhile and some studies to understand how to select good candidates with the tools that I had. To my surprise, it's not that hard to select the good candidates.
 
 ## The first experience
 
@@ -23,48 +23,46 @@ The first interviews that I made were just talking to the candidate: some questi
 
 For some time this was considered a good approach. But the approved candidates **frequently** not show the expected quality and productivity when coding.
 
-As you know, it was a mistake in our process: as you can't hire a magician without seeing him make some magic, you can't hire a developer without seeing some code.
+As you can imagine, we were commiting a evident a mistake in our process: as you can't hire a magician without seeing him make some magic, you can't hire a developer without seeing him doing some code.
 
 ## The second experience
 
-Another idea was to create a [Coding Dojo](http://codingdojo.org/WhatIsCodingDojo/) with the candidates. We run some interviews using this technic and the results were good, I can't lie.
+Another idea was to create a [Coding Dojo](http://codingdojo.org/WhatIsCodingDojo/) with the candidates. We did some interviews using this approach and the results were good, I can't lie.
 
 But we realized at least three major problems:
 
 - The skill difference between the candidates
-- Require a lot of time from interviewers
-- Very stressful for introvert developers
+- Requires a lot of time from interviewers
+- Very stressful for introvert candidates
 
 Even with the good results, the cost-benefit was not so great. On many occasions, we spend time in the Coding Dojo to no hire any of the candidates.
 
 ## The third experience
 
-The company started to use a complex test after the talking interview. I not participated in this decision, but basically, the test was: connect to a database, create some Hibernate entities and solve some problems about save a person and his information.
+In this company we used to apply a complex test after the talking interview. Basically, the test was: connect to a existent database, mapping some Hibernate entities and solve some problems about save a Person entity.
 
-The cons: this test was hard to set up every time (because of the database), required too much specific knowledge from the candidate (I don't care if he remembers or not how to connect to a database) and consumes a lot of time of the candidate without showing relevant programming skills.
+The cons: this test was hard to set up every time (mainly because of the database), required too much specific knowledge from the candidate and consumes a lot of time of the candidate without showing relevant programming skills.
 
 ## The fourth experience
 
-One of the first articles that open my mind was the [Guerrila guide to interviewing](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/). Joel changes my focus on the interview and I start to looking for developers **smart**  and that **gets things done**.
+This experience starts with the first interview article that openned my mind, it was the [Guerrila guide to interviewing](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/). Joel changed my focus on how evaluate a candidate in an interview and I started to looking for **smart** developers and that **gets things done**. Until today, this is the best guide to hire good developers.
 
-But I needed to adapt some of his processes.
+But for that happen, I needed to adapt some of the current interview process.
 
-I'm not a big fan to [write code on board](https://www.codility.com/blog/white-board-interviews-are-a-thing-of-the-past-0), not because of not works but because it applies an aggressive filter to the candidates and we were not Google or Facebook to do that, where there is a big line of smart, experienced and confident people at the company door waiting their turn on the interview. Also, the company will not approve this kind of interview.
+I'm not a big fan to [write code on board](https://www.codility.com/blog/white-board-interviews-are-a-thing-of-the-past-0), not because I don't believe in the result but because it applies an aggressive filter to the candidates and we were not Google or Facebook to do that, since these companies has a big line of smart, experienced and confident people at the company door, waiting their chance for an interview. Also, the company itself will not approve this kind of interview too.
 
-So, after some research and experiments, the correct filter that I found was using a [really simple test](https://blog.codinghorror.com/why-cant-programmers-program/) after the talking interview, regardless of the position is for junior or senior. And when I say "simple" it's because is very simple.
+So, after some research and experiments, a good candidate filter that I found was using a [really simple test](https://blog.codinghorror.com/why-cant-programmers-program/) after the talking interview. The same test was applied regardless of the position is for Junior or Senior.
 
-The test had 7 questions, but the first two questions were mandatory:
+The test had a total of 7 questions, but just the first two questions were mandatory:
 
 - The classic [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz)
 - A question about validating a name of a Robot, Customer, and Manager, just to see how/if they think object-oriented.
 
-Examples of these and other questions that were on the test you can find on [my repository](https://github.com/dherik/java-exam/tree/master/src/main/resources). We evaluated the presence of unit tests, the code quality (meaningful names, organization, etc) and the solution itself.
+Examples of these and other questions that were on the test you can find on [my repository](https://github.com/dherik/java-exam/tree/master/src/main/resources). We evaluated the presence of unit tests, the code quality (meaningful names, organization, etc) and the solution itself. This test worked very well.
 
-This test worked very well.
+But many candidates that seems very good at the talking interview was not able to resolve the two tests above. Worse than this, a few junior developers have been able to resolve more than 5 problems faster and better than many senior developers that solve just the first 2 questions. And to be honest, by my experience, I was not so surprised.
 
-But many candidates that seem very good at the talking interview was not able to resolve the two tests above. Worse than this, a few junior developers have been able to resolve more than 5 problems faster and better than most of the senior developers that resolve the first 2 questions. By my experience, I'm not surprised.
-
-The results were more than satisfactory. However, we found that the talking interviews were not working well as the first filter, because most of the candidates were able to be approved in this step but failed the programming test.
+The results were more than satisfactory. However, we found that the talking interviews were not working well as the first filter, because most of the candidates were able to be approved in this step but failed in the programming test.
 
 ## The last (and best) experience
 
