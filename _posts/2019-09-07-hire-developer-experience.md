@@ -66,19 +66,19 @@ The results were more than satisfactory. However, we found that the talking inte
 
 ## The last (and best) experience
 
-We just inverted the order of the process. First, the programming test. Second, talking.
+Compared with the previous experience, in this one we just inverted the order of the process. First, the programming test. Second, the talking.
 
-This change makes us more productive on the filter the good candidates in the shortest time possible. Also, using this order we could discuss some aspects of the implemented code from the programming test.
+This change makes us more productive on the filter of the good candidates. Also, we had more time to discuss some aspects of the implemented code from our candidates in the programming test.
 
-The drawback of this situation was to convince and explain to the company HR why 90% of the candidates were being rejected. No doubt, the HR was not so glad initially, because they needed to prospect more candidates for the interview to fill the available positions. For my luck, the HR manager knew very well the IT market and the difficulty to hire good employees.
+The drawback of this situation was to convince and explain to the HR (Human Resources) department why 90% of the candidates were being rejected. I will not lie, the HR was not so glad initially, because they needed to prospect more candidates for the interview to fill the available positions. But for my luck, the HR manager was aware about the IT market and the difficulty to hire good developers.
 
 ## Conclusion
 
-This experience showed to me that hire a developer without seeing his code is not a good idea at all. No matter what the developer says in an interview, you need to have some clue about how he performs programming. If you can't do that yet on your interview process, ask if the candidate creates some Github repositories in the past months, because this is a good signal of programming skills or a developer really trying to learn more (what is also great).
+This experience showed to me that hire a developer without seeing his code is not a good idea at all. No matter what the developer says in an interview, you need to have some clue about how the person performs programming.
 
-Of course, I'm not saying that everyone needs to follow this process to hire a developer. The companies had different problems, tools, demands, and prerequisites. For example, some companies prefer to pass a bigger exercise for the candidate to solve in the comfort of your home and, to be honest, probably it's a better strategy. I already participated in two interview processes using this method and the experience for me, as a candidate, was positive.
+And of course, I'm not saying that everyone needs to follow this process to hire a developer. The companies had different problems, tools, demands, necessities, and prerequisites. For example, some companies prefer to pass a bigger exercise for the candidate to solve in the comfort of your home and, to be honest, probably it's a better strategy. I already participated in two interview processes using this method and the experience for me, as a candidate, was positive, but not every company agrees with that.
 
-Of course, even this simple interview process can accidentally filter a good candidate. But when in doubt about hire or not hire, it’s better not. As [Joel said](https://blog.codinghorror.com/why-cant-programmers-program/):
+Of course, even this simple interview process can accidentally filter a good candidate. But when in doubt about hire or not hire, it’s better not hire. As [Joel said](https://blog.codinghorror.com/why-cant-programmers-program/):
 
 > ... it is much, much better to reject a good candidate than to accept a bad candidate
 
