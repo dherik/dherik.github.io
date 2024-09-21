@@ -20,11 +20,11 @@ P.S.: It's been a while since I last wrote on my blog. I often think about writi
 
 # Starting my adventure
 
-My adventure started with the [llamafile](https://github.com/Mozilla-Ocho/llamafile). I admit that I was ignorant about the LLM and AI generative topic, and I was **very** impressed by what a 4GB file could do running 100% offline. It's not an exaggeration to affirm that you now can have a considerable amount of humanity knowledge in a single old pendrive -  I'm not saying that this was not possible before LLMs, but being able to use natural language to interact with that and even process images with this technology is amazing!
+My adventure started with the [llamafile](https://github.com/Mozilla-Ocho/llamafile). I admit that I was ignorant about the LLM and AI generative topic, and I was **very** impressed by what a 4GB file could do running 100% offline. It's not an exaggeration to say that you can now store a considerable amount of human knowledge on a single old pendrive -  I'm not saying that this was not possible before LLMs, but being able to use natural language to interact with that and even process images with this technology is amazing!
 
-After playing around with llamafile (Llama2-7b model, to be more precise), I was thinking about what I could do with that. The obvious answer for me was being able to use my private data as input and, of course, coding. In this article, I will focus on the coding part.
+After playing around with llamafile (specifically the Llama2-7b model, to be more precise), I was thinking about what I could do with that. The obvious answer for me was being able to use my private data as input and, of course, coding. In this article, I will focus on the coding part.
 
-I already used [Github Copilot](https://github.com/features/copilot). Very good tool, do a great job helping in the development. I'm able to autocomplete my code (one line and multiline), create new tests with little effort, and explaining spaghetti code to me (also very useful when you dealing with ancient technologies, like ASP.net and VisualBasic =P).
+I already used [Github Copilot](https://github.com/features/copilot). Very good tool, does a great job helping with development. I'm able to autocomplete my code (one line and multiline), create new tests with little effort, and explaining spaghetti code to me (also very useful when you dealing with ancient technologies, like ASP.net and VisualBasic =P).
 
 But Github Copilot is expensive, has no privacy, and mainly... is boring. I want to get my hands dirty. So what were my alternatives?
 
@@ -50,7 +50,7 @@ If you know something about running local LLMs, you don't even need to read the 
 
 About my notebook, spoiler alert: my mission to have more tokens was not quite successful. My notebook has a decent processor (a Ryzen 7), and 20GB of RAM, which should be able to load models with more than 7 billion parameters. But has integrated graphics, which is a lost cause to run local LLMs, because is not possible to have anything faster than your read speed in this scenario. Like, is not that bad, is enough for chatting but impractical to use for autocomplete my code.
 
-Driven by frustration, I started the journey to understand what was happening. This was the moment when I started to learn about [CUDA](https://pt.wikipedia.org/wiki/CUDA), [ROCm](https://en.wikipedia.org/wiki/ROCm), [Vulkan](https://en.wikipedia.org/wiki/Vulkan), and [OpenCL](https://pt.wikipedia.org/wiki/OpenCL). I also discovered that running a local LLM for tasks like chatting or autocomplete is known  as "local LLM **inference**". But, no matter the situation, my notebook was not able to improve this speed as much as I wanted.
+Driven by frustration, I started the journey to understand what was happening. This was the moment when I started to learn about [CUDA](https://pt.wikipedia.org/wiki/CUDA), [ROCm](https://en.wikipedia.org/wiki/ROCm), [Vulkan](https://en.wikipedia.org/wiki/Vulkan), and [OpenCL](https://pt.wikipedia.org/wiki/OpenCL). I also discovered that running a local LLM for tasks like chatting or autocomplete is known as 'local LLM **inference**,' which refers to the process of using a trained model to generate outputs based on input data. But, no matter the situation, my notebook was not able to improve this speed as much as I wanted.
 
 To achieve decent performance when running an LLM model, it's crucial to have high memory bandwidth between the processor and RAM. One of the most effective ways to do this is by loading the model into your GPU’s RAM. This significantly boosts performance because the bandwidth between the GPU and its RAM is much faster than that of a CPU and standard computer RAM. However, it's still possible to achieve good speeds without a dedicated GPU, as long as the notebook meets certain requirements.
 
@@ -70,7 +70,7 @@ So, when I need to run a local LLM on my notebook, I alternate between both, cho
 
 Now things get more exciting.
 
-My current setup includes a Ryzen 5 5600, 16 GB of RAM, and an [Radeon RX 6600](https://www.amd.com/pt/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6600.html) with 8 GB of VRAM. With this amount of VRAM, I should be able to fully load an 7b/8b model.
+My current setup includes a Ryzen 5 5600, 16 GB of RAM, and an [Radeon RX 6600](https://www.amd.com/pt/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6600.html) with 8 GB of VRAM. With this amount of VRAM, I should be able to fully load a 7b/8b model.
 
 However, just like with my notebook, the token generation was slow on my first attempt, despite my expectations that the GPU would handle it and the model would be fully loaded into the GPU’s VRAM. To investigate further, I began experimenting with various LLM tools, since their hardware support can differ enough to produce varying results.
 
