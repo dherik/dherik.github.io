@@ -5,7 +5,8 @@ categories:
   - Blog
 tags:
   - LLM
-  - gpu
+  - ollama
+  - Llama
 header:
   image: /assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
