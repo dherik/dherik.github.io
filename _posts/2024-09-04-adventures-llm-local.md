@@ -1,5 +1,5 @@
 ---
-title: "My adventures running Local LLM"
+title: "My adventures running local LLM"
 published: true
 categories:
   - Blog
@@ -69,7 +69,7 @@ So, when I need to run a local LLM on my notebook, I alternate between both, cho
 
 Now things get more exciting.
 
-My current setup includes a Ryzen 5 5600, 16 GB of RAM, and an RX 6600 with 8 GB of VRAM. With this amount of VRAM, I should be able to fully load an 7b/8b model.
+My current setup includes a Ryzen 5 5600, 16 GB of RAM, and an [Radeon RX 6600](https://www.amd.com/pt/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6600.html) with 8 GB of VRAM. With this amount of VRAM, I should be able to fully load an 7b/8b model.
 
 However, just like with my notebook, the token generation was slow on my first attempt, despite my expectations that the GPU would handle it and the model would be fully loaded into the GPU’s VRAM. To investigate further, I began experimenting with various LLM tools, since their hardware support can differ enough to produce varying results.
 
@@ -104,3 +104,9 @@ You can see that I'm loading two models. The reason for that is that one model i
 I can load both models in the GPU because I carefully choose the models based on the number of parameters. A model with 8 billion parameters can occupy 4.5 GB of RAM and a model of 3 Billion will occupy 2 GB of RAM. In my case, I was using the model [Llama 3 8b](https://ollama.com/library/llama3) for chat and the model [Starcoder 3b](https://ollama.com/library/starcoder) for autocomplete.
 
 With this setup, I was able to play with Continue extension in Visual Studio Code, chatting with the model, and using the autocomplete feature to help me in the coding tasks.
+
+# Next steps
+
+Recently, AMD launched the [RX 7600 XT](https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7600-xt.html), a new graphics card with 16 GB of VRAM — one of the best value-for-money options if you're looking to run local LLMs and play games on the side. It’ll probably be my next purchase, as it will allow me to load larger models and assist with my coding tasks.
+
+I haven't had time to dive into this topic yet, but another personal goal is to set up a local RAG (Retrieval Augmented Generation) system using an LLM model. The idea is to feed it my personal files so it can help me answer questions about my own documents.
