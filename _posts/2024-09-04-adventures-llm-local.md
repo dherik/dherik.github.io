@@ -80,7 +80,7 @@ So I tried the third one, the [koboldcpp](https://github.com/LostRuins/koboldcpp
 
 I went back to Ollama and tried to understand what was going on. After some research, I understand that the lack of support for my GPU was the cause. Some GPU models of AMD Radeon GPU were supported, but the 6600 was not on the list (at least not yet). Seeing some [folks with the same problem](https://github.com/ollama/ollama/issues/2869#issuecomment-1990941696), I figured out that I could trick the Ollama, by manually changing the detected chipset of my GPU to a different model supported and in the same architecture as my 6600 GPU.
 
-The script to start Ollama with this configuration can be found [here](https://github.com/dherik/ddd-golang-project/blob/main/scripts/start-ollama-continue.sh).
+You can find the script to start Ollama with this configuration [here](https://github.com/dherik/ddd-golang-project/blob/main/scripts/start-ollama-continue.sh).
 
 ```sh
 #!/bin/bash
