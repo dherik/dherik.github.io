@@ -8,7 +8,7 @@ tags:
   - ollama
   - Llama
 header:
-  image: /assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg
+  image: /assets/images/a-computer-keyboard-with-a-blue-light-on-it-dwOcAJxSuD8.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
