@@ -16,7 +16,7 @@ A few months ago, I started experimenting with local [LLM models](https://en.wik
 
 Well, I was wrong :)
 
-P.S.: It's been a while since I last wrote on my blog. I often think about writing something new (trust me, I have a LOT of drafts), but I always feel like there's a better article or video out there covering the topic more effectively than I could. However, I recently came across advice that said a good reason to write is to explain things in your own way, even if others have already covered the subject. So, here we are again :)
+P.S.: It's been a while since I last wrote on my blog. I often think about writing something new (trust me, I have a LOT of drafts), but I always feel like there's a better article or video out there covering the topic more effectively than I could. However, I recently read an advice that said "a good reason to write is to explain things in your own way, even if others have already covered the subject". So, here we are again :)
 
 # Starting my adventure
 
@@ -102,12 +102,12 @@ echo -n "Ollama servers stopped"
 
 You can see that I'm loading two models. The reason for that is that one model is for the chat and the other one is for autocomplete. Is not possible to use the same model for both things, because the training for a model to chat with you is different from one prepared to autocomplete.
 
-I can load both models in the GPU because I carefully choose the models based on the number of parameters. A model with 8 billion parameters can occupy 4.5 GB of RAM and a model of 3 Billion will occupy 2 GB of RAM. In my case, I was using the model [Llama 3 8b](https://ollama.com/library/llama3) for chat and the model [Starcoder 3b](https://ollama.com/library/starcoder) for autocomplete.
+I can load both models in the GPU because I carefully choose the models based on the number of parameters. A model with 8 billion parameters can occupy approximately 4.5 GB of RAM, while a 3 billion parameter model occupies about 2 GB. This selection allows me to load both models in the GPU. In my case, I was using [Llama 3 8b](https://ollama.com/library/llama3) for chat and [Starcoder 3b](https://ollama.com/library/starcoder) for autocomplete.
 
 With this setup, I was able to play with Continue extension in Visual Studio Code, chatting with the model, and using the autocomplete feature to help me in the coding tasks.
 
 # Next steps
 
-Recently, AMD launched the [RX 7600 XT](https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7600-xt.html), a new graphics card with 16 GB of VRAM — one of the best value-for-money options if you're looking to run local LLMs and play games on the side. It’ll probably be my next purchase, as it will allow me to load larger models and assist with my coding tasks.
+Recently, AMD launched the [RX 7600 XT](https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7600-xt.html), a new graphics card with 16 GB of VRAM — one of the best value-for-money options if you're looking to run local LLMs and play games on the side. It will probably be my next purchase, as it will allow me to load larger models and assist with my coding tasks.
 
 I haven't had time to dive into this topic yet, but another personal goal is to set up a local RAG (Retrieval Augmented Generation) system using an LLM model. The idea is to feed it my personal files so it can help me answer questions about my own documents.
