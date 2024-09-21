@@ -11,15 +11,11 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-Hello!
+A few months ago, I started experimenting with local [LLM models](https://en.wikipedia.org/wiki/Large_language_model). Before that, I was already using [ChatGPT](https://openai.com/chatgpt/) daily for various tasks, like brainstorming solutions, learning new technologies, coding, translations, and more. But up until then, I thought something so powerful was only possible on massive servers with terabytes of data and an uncountable number of dedicated GPUs.
 
-It's been a while since I wrote my last article in my blog. I'm always thinking about writing something new (and believe, I have a LOT of drafts here) but, in the end, I think it's a better text or video somewhere explaining or talking about the same subject better than me. 
+Well, I was wrong :)
 
-However, I recently read somewhere that a good reason to write an article is to explain something in your way, even if many sources have already covered it. So here we are again :).
-
-Some months ago I started to play with local [LLM models](https://en.wikipedia.org/wiki/Large_language_model). I had already been using [ChatGPT](https://openai.com/chatgpt/) daily for many things before, like helping me to have new ideas for some problems, learning new technologies, coding, translation, etc. But until then I was thinking that something so powerful was just available through powerful servers with lots of terabytes of data and an uncountable amount of dedicated GPUs. 
-
-Well, I was wrong.
+P.S.: It's been a while since I last wrote on my blog. I often think about writing something new (trust me, I have a LOT of drafts), but I always feel like there's a better article or video out there covering the topic more effectively than I could. However, I recently came across advice that said a good reason to write is to explain things in your own way, even if others have already covered the subject. So, here we are again :)
 
 # Starting my adventure
 
