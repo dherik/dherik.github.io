@@ -83,9 +83,9 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
+    - label: "X"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/dherikbarison"
+      url: "https://x.com/dherikbarison"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dherik"
