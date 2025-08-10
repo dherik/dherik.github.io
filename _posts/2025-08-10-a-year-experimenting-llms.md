@@ -51,6 +51,6 @@ Recently, [**GPT-5**](https://openai.com/index/introducing-gpt-5/) was released.
 
 Overall, the landscape has changed a lot. A year ago, running something competitive locally seemed far away; today, it's already a reality — and the trend is for it to get even better.
 
-But surprisingly, what I've found most interesting over this period hasn't been the evolution of the models themselves, but rather the discovery of the different tools that have emerged to interact with them and get the most out of them (and, in some cases, out of your wallet too).
+But surprisingly, what I've found most interesting over this period hasn't been the evolution of the models themselves, but rather the discovery of the different tools that have emerged to interact with them and get the most out of them (and, in some cases, out of your wallet 💸 too).
 
 I plan to cover talk about of these tools in my next post. Until then!
