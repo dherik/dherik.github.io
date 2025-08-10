@@ -19,7 +19,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-It's been a year since [I first published a blog post](https://dherik.com/blog/adventures-llm-local/) about running LLMs locally. Back then, I didn't know much about LLMs or how to run them on my own laptop (or desktop). I still had some basic questions about what terms like Inference, Thinking, Instruct, Tokens, etc., really meant.
+It's been a year since [I first published a blog post](https://dherik.com/blog/adventures-llm-local/) about running LLMs locally. Back then, I didn't know much about LLMs or how to run them on my own laptop (or desktop). I had many basic questions about what terms like Inference, Thinking, Instruct, Tokens, etc., really meant. Not that I don’t still have many questions — I definitely do! But things are more clearer now than they were a year ago.
 
 I can say that a lot has changed since then. Today, I consider myself almost an enthusiast of this technology, and I've been experimenting with different ways of using LLMs — both remotely and locally — as well as testing various tools that interact with these models. I even created an [MCP Server](https://modelcontextprotocol.io/quickstart/server)!
 
