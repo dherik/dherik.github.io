@@ -1,0 +1,111 @@
+/* ==========================================================================
+   Matrix skin — inspired by The Matrix (1999)
+   Phosphor-green terminal aesthetics. "Wake up, Neo..."
+   ========================================================================== */
+
+/* Colors */
+$background-color: #0c1310 !default;                     /* near-black, faint green cast */
+$text-color: #cfe8d0 !default;                           /* soft green-white */
+$primary-color: #00ff41 !default;                        /* phosphor green */
+$border-color: mix(#fff, $background-color, 20%) !default;
+$code-background-color: #000000 !default;                /* pure terminal black */
+$code-background-color-dark: #000000 !default;
+$form-background-color: mix(#000, $background-color, 15%) !default;
+$footer-background-color: mix($primary-color, #000, 8%) !default;
+$link-color: $primary-color !default;
+$link-color-hover: mix(#fff, $link-color, 25%) !default;
+$link-color-visited: mix(#000, $link-color, 25%) !default;
+$masthead-link-color: $text-color !default;              /* nav stays calm... */
+$masthead-link-color-hover: $primary-color !default;     /* ...and lights up green on hover */
+$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+/* notices */
+$notice-background-mix: 90% !default;
+$code-notice-background-mix: 95% !default;
+
+/* "Follow the white rabbit" syntax highlighting (base16) */
+$base00: #000000 !default;  /* code background — full terminal black */
+$base01: #0c1a0e !default;
+$base02: #16301b !default;
+$base03: #16301b !default;
+$base04: #4e7a56 !default;  /* comments — dim moss green */
+$base05: #cfe8d0 !default;  /* default code text */
+$base06: #1e4a2e !default;  /* highlighted line — dark green band */
+$base07: #ffffff !default;
+$base08: #59ff8a !default;  /* variables, constants — bright green */
+$base09: #ffb000 !default;  /* numbers, literals — amber (the gold code of Reloaded) */
+$base0a: #c8ffd0 !default;  /* types, classes — pale green */
+$base0b: #33ffd6 !default;  /* strings — cyan-green */
+$base0c: #a9dcb2 !default;  /* operators, tags — muted green */
+$base0d: #8effa3 !default;  /* functions, attributes — light green */
+$base0e: #00ff41 !default;  /* keywords — phosphor green, the signature color */
+$base0f: #cc6633 !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+/* pagination: phosphor green pager buttons. The extra .pagination ancestor
+   out-specifies the theme's later rule that repaints the text color. */
+.pagination .pagination--pager {
+  color: $background-color;
+  background-color: $primary-color;
+  /* dark frame: invisible against the page background on the outside,
+     but draws a clear seam between the two halves of the control */
+  border: 1px solid $background-color;
+
+  &:hover {
+    color: $background-color;
+    background-color: $link-color-hover;
+  }
+
+  &:visited {
+    color: $background-color;
+  }
+
+  /* disabled (first/last post): muted outline instead of green */
+  &.disabled {
+    background-color: transparent;
+    border-color: $border-color;
+  }
+}
+
+/* selected page number in the home pagination: dark text on phosphor green.
+   Both selectors needed — the current page carries .disabled too, and the
+   theme's .current.disabled rule (3 classes) would otherwise win. */
+.pagination ul li a.current,
+.pagination ul li a.current.disabled {
+  color: $background-color;
+  background: $primary-color;
+}
+
+/* terminal font + phosphor glow for the site title */
+.site-title {
+  font-family: "JetBrains Mono", "Fira Code", "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 8px rgba(0, 255, 65, 0.4);
+}
+
+/* phosphor glow trailing the cursor on links */
+a:hover {
+  text-shadow: 0 0 6px rgba(0, 255, 65, 0.45);
+}
+
+/* faint green haze under the masthead */
+.masthead {
+  box-shadow: 0 2px 14px rgba(0, 255, 65, 0.18);
+}
+
+/* text selection — like marking text on a terminal screen */
+html ::selection {
+  background-color: $primary-color;
+  color: #000;
+}
+
+/* search box */
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}
