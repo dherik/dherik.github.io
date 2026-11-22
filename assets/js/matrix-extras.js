@@ -155,6 +155,43 @@
     var lines = ["Wake up, Neo...", "The Matrix has you...",
                  "Follow the white rabbit.", "Knock, knock, Neo."];
 
+    if (!REDUCED_MOTION) {
+      /* the rain layer goes on first; the message layer is added after it
+         (DOM-last, plus a higher z-index in the skin) so it stays readable
+         on top of the falling glyphs for the whole sequence */
+      state.canvas = document.createElement("canvas");
+      state.canvas.className = "matrix-burst";
+      state.canvas.setAttribute("aria-hidden", "true");
+      document.body.appendChild(state.canvas);
+
+      var ctx = state.canvas.getContext("2d");
+      var fontSize = 16;
+      var drops = [];
+
+      state.canvas.width = window.innerWidth;
+      state.canvas.height = window.innerHeight;
+      var columns = Math.ceil(state.canvas.width / fontSize);
+      for (var i = 0; i < columns; i++) {
+        drops.push(Math.floor(Math.random() * -50));
+      }
+
+      state.rainTimer = setInterval(function () {
+        /* reality dissolves toward the page background */
+        ctx.fillStyle = "rgba(12, 19, 16, 0.12)";
+        ctx.fillRect(0, 0, state.canvas.width, state.canvas.height);
+        ctx.font = fontSize + "px monospace";
+        for (var i = 0; i < drops.length; i++) {
+          var y = drops[i] * fontSize;
+          ctx.fillStyle = "#00ff41";
+          ctx.fillText(GLYPHS.charAt(Math.floor(Math.random() * GLYPHS.length)), i * fontSize, y);
+          if (y > state.canvas.height && Math.random() > 0.975) drops[i] = 0;
+          drops[i]++;
+        }
+      }, 50);
+
+      setTimeout(function () { endBurst(state); }, 4200);
+    }
+
     state.quote = document.createElement("div");
     state.quote.className = "matrix-burst-quote";
     state.quote.textContent = lines[0];
@@ -171,40 +208,7 @@
     if (REDUCED_MOTION) {
       /* calm version: the message, but no rain */
       setTimeout(function () { endBurst(state); }, 3800);
-      return;
     }
-
-    state.canvas = document.createElement("canvas");
-    state.canvas.className = "matrix-burst";
-    state.canvas.setAttribute("aria-hidden", "true");
-    document.body.appendChild(state.canvas);
-
-    var ctx = state.canvas.getContext("2d");
-    var fontSize = 16;
-    var drops = [];
-
-    state.canvas.width = window.innerWidth;
-    state.canvas.height = window.innerHeight;
-    var columns = Math.ceil(state.canvas.width / fontSize);
-    for (var i = 0; i < columns; i++) {
-      drops.push(Math.floor(Math.random() * -50));
-    }
-
-    state.rainTimer = setInterval(function () {
-      /* reality dissolves toward the page background */
-      ctx.fillStyle = "rgba(12, 19, 16, 0.12)";
-      ctx.fillRect(0, 0, state.canvas.width, state.canvas.height);
-      ctx.font = fontSize + "px monospace";
-      for (var i = 0; i < drops.length; i++) {
-        var y = drops[i] * fontSize;
-        ctx.fillStyle = "#00ff41";
-        ctx.fillText(GLYPHS.charAt(Math.floor(Math.random() * GLYPHS.length)), i * fontSize, y);
-        if (y > state.canvas.height && Math.random() > 0.975) drops[i] = 0;
-        drops[i]++;
-      }
-    }, 50);
-
-    setTimeout(function () { endBurst(state); }, 4200);
   }
 
   function initRabbit() {
