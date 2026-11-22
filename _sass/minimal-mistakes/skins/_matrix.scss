@@ -109,3 +109,119 @@ html ::selection {
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
 }
+
+/* ==========================================================================
+   Creative extras: terminal cursor, CRT overlay, copy button, 404 panel
+   ========================================================================== */
+
+/* blinking terminal cursor after the masthead title */
+@keyframes matrix-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+.site-title::after {
+  content: "▌";
+  margin-inline-start: 0.15em;
+  animation: matrix-blink 1.1s steps(1) infinite;
+}
+
+/* CRT: faint scanlines + vignette over the whole viewport */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.09) 0px,
+      rgba(0, 0, 0, 0.09) 1px,
+      transparent 1px,
+      transparent 3px
+    ),
+    radial-gradient(ellipse at 50% 35%, transparent 55%, rgba(0, 0, 0, 0.22) 100%);
+}
+
+/* keep printouts clean: no scanlines on paper */
+@media print {
+  body::after { display: none; }
+}
+
+/* copy-code button: phosphor green, fully lit on hover */
+body pre.highlight .clipboard-copy-button {
+  color: $primary-color;
+  opacity: 0.6;
+
+  &:hover {
+    color: $link-color-hover;
+    opacity: 1;
+  }
+}
+
+/* 404 page: readable panel floating over the code rain */
+.matrix-404-panel {
+  display: inline-block;
+  padding: 1.5em 2em;
+  background-color: rgba($background-color, 0.88);
+  border: 1px solid $border-color;
+  box-shadow: 0 0 24px rgba(0, 255, 65, 0.25);
+}
+
+/* ==========================================================================
+   White rabbit easter egg (footer) + code-rain burst
+   ========================================================================== */
+
+/* the rabbit idles in the footer corner, hopping now and then */
+.matrix-rabbit {
+  display: inline-block;
+  float: inline-end;
+  margin: 0.2em 0.4em;
+  cursor: pointer;
+  user-select: none;
+  /* whatever shade the emoji has on this platform, it becomes white */
+  filter: grayscale(1) brightness(2.4);
+  animation: matrix-hop 3.2s ease-in-out infinite;
+}
+
+.matrix-rabbit:hover {
+  filter: grayscale(1) brightness(2.9);
+  text-shadow: 0 0 10px rgba(0, 255, 65, 0.8);
+}
+
+@keyframes matrix-hop {
+  0%, 100% { transform: translateY(0); }
+  10% { transform: translateY(-4px); }
+  20% { transform: translateY(0); }
+}
+
+/* full-screen canvas the burst rains on */
+.matrix-burst {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  opacity: 1;
+  transition: opacity 0.65s linear;
+}
+
+/* the message that types itself across the screen */
+.matrix-burst-quote {
+  position: fixed;
+  inset-inline: 0;
+  top: 38%;
+  z-index: 9998;
+  text-align: center;
+  font-family: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 1.75em;
+  color: $primary-color;
+  text-shadow: 0 0 12px rgba(0, 255, 65, 0.6);
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.65s linear;
+}
+
+/* no idle hopping for motion-sensitive readers */
+@media (prefers-reduced-motion: reduce) {
+  .matrix-rabbit { animation: none; }
+}
