@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: dherikbarison
 github_username: dherik
 minimal_mistakes_skin: matrix
-masthead_title: "dherik@matrix:~$"
+masthead_title: "dherik@dherik.com:~$"
 search: true
 enable_copy_code_button: true
 footer_scripts:
